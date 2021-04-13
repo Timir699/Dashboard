@@ -1,0 +1,1151 @@
+/*----------------------------------------------------------------*/
+/*Google Fonts */
+/*----------------------------------------------------------------*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700|Ubuntu:300,400,500,700&display=swap');
+/*----------------------------------------------------------------*/
+/*Google Fonts */
+/*----------------------------------------------------------------*/
+
+
+/*----------------------------------------------------------------*/
+/*Global CSS Starts*/
+/*----------------------------------------------------------------*/
+font-family: 'Ubuntu', ;
+
+* {
+	margin: 0;
+	padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,a {
+	margin: 0;
+	padding: 0;
+	font-family: 'Lato', 'san-serif' ;
+
+}
+ul,li,ol {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+a:hover {
+	text-decoration: none;
+	color: #000;
+}
+html {
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+}
+body{
+	
+}
+button:focus{
+	outline: 0px dotted;
+    outline: 0px auto -webkit-focus-ring-color;
+}
+
+/*----------------------------------------------------------------*/
+/*Global CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+/*----------------------------------------------------------------*/
+/*Header CSS Starts*/
+/*----------------------------------------------------------------*/
+.head {
+	padding: 34px 0px;
+	border-bottom: 1px solid #f2edf4;
+}
+.head .search_box {
+	margin-left: 120px;
+	border: 1px solid #aaa;
+}
+
+.has-search .form-control {
+    padding-left: 38px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 38px;
+    height: 38px;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.form-control {
+	border: none;
+}
+.form-group {
+	margin-bottom: 0rem;
+}
+.form-control:focus {
+	box-shadow: none;
+}
+.search_box input::placeholder {
+	font-size: 16px;
+	font-family: 'Ubuntu', san-serif;
+	font-weight: 300;
+}
+.notification .message{
+	margin-right: 30px;
+}
+.notification img {
+	cursor: pointer;
+}
+.menubar a {
+	font-size: 30px;
+	position: absolute;
+	top: 25px;
+	right: 45px;
+}	
+	
+ /*----------------------------------------------------------------*/
+/*Header CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+ /*----------------------------------------------------------------*/
+/*dasboard_menu CSS Starts*/
+/*----------------------------------------------------------------*/
+ 
+.dasboard .profile_pic {
+	padding: 32px 0px;
+	border-bottom: 1px solid #f2edf4;
+ }
+.dasboard .profile_pic h4{
+	font-size: 25px;
+	font-weight: 700;
+	padding: 6px 0px 9px 0px;
+ }
+.dasboard .profile_pic p {
+	color: #414141;
+	font-size: 14px;
+ }
+
+.profile_information {
+	background: #f2edf4;
+	padding: 30px 35px 220px 35px;
+}
+.dashboard_menu ul {
+	padding: 50px 0px 35px 0px;
+}
+.dashboard_menu ul li {
+	margin-left: 65px;
+	padding-bottom: 35px;
+	transition: all linear .3s;
+}
+.dashboard_menu ul li img {
+	padding-bottom: 8px;
+}
+.dashboard_menu ul li a {
+	margin-top: 5px;
+	transition: all linear .3s;
+}
+.dashboard_menu ul li a:hover {
+	color: #134bff;
+}
+.dashboard_menu ul .profile {
+	margin-left: 14px;
+}
+.dashboard_menu ul .payment {
+	margin-left: 15px;
+}
+.dashboard_menu ul .live {
+	margin-left: 7px;
+}
+.dashboard_menu ul .job {
+	margin-left: 13px;
+}
+.dashboard_menu ul .offer {
+	margin-left: 12px;
+}
+.dashboard_menu ul .notice {
+	margin-left: 13px;
+}
+.dashboard_menu ul .support {
+	margin-left: 11px;
+}
+.dashboard_menu .sign_out_btn a {
+	margin-left: 68px;
+	color: #134bff;
+}
+.dashboard_menu .sign_out_btn {
+	margin-bottom: 103px;
+}
+.dash_btn {
+	margin-left: 37px;
+	margin-bottom: 198px;
+}
+.dash_btn a {
+	font-weight: 700;
+	font-size: 20px;
+	padding: 19px 54px;
+	background: linear-gradient(to right, #1a9eff , #1a60ff);
+	border-radius: 2px;
+}
+.profile_content_img {
+	position: relative;
+}
+.profile_content2 {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.profile_content2 h3 {
+	font-size: 54px;
+	font-weight: 700;
+	color: #fdff63;
+	padding-top: 25px;
+	padding-left: 39px;
+}
+.profile_content2 p {
+	font-size: 27px;
+	/*padding-bottom: 66px;*/
+	padding-left: 39px;
+	margin-bottom: 10px;
+}
+.profile_content2 a {
+	margin-left: 39px;
+	padding: 9px 17px;
+	background: #fff;
+	border-radius: 20px;
+	font-size: 16px;
+
+}
+.profile_content_img img {
+	height: 186px;
+}
+.profile_content h3 {
+	font-size: 54px;
+	font-weight: 700;
+	color: #fdff63;
+	padding-top: 25px;
+	padding-left: 39px;
+	
+}
+.profile_content p {
+	font-size: 27px;
+	/*padding-bottom: 66px;*/
+	padding-left: 39px;
+}
+.profile_content {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.profile_information_form {
+	background: #fff;
+	margin-top: 30px;
+}
+.profile_information_form_content {
+	padding-top: 80px;
+	padding-left: 117px;
+	position: relative;
+	padding-bottom: 40px;
+}
+.profile_information_form_content h4 {
+	font-size: 44px;
+	font-weight: 600;
+	padding-bottom: 50px;
+}
+.profile_information_form_content p {
+	font-size: 16px;
+	color: #191f2b;
+	padding-bottom: 19px;
+}
+.profile_information_form_content input {
+	margin-bottom: 40px;
+	width: 90%;
+	border: none;
+	border-bottom: 1px solid #e1e1e1;
+	
+}
+
+.profile_information_form_content .forget {
+	position: absolute;
+	top: 91%;
+	right: 13%;
+	
+}
+.profile_information_form_content .forget a {
+	color: #1654db;
+}
+.profile_information_form_content .profile_information_form_content_btn {
+	margin-top: 50px;
+}
+.profile_information_form_content_btn a {
+	padding: 14px 28px;
+	background: #292e37;
+	color: #fff;
+	border-radius: 2px;
+	margin-left: 15px;
+}
+
+
+/*----------------------------------------------------------------*/
+/*dasboard_menu CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+ /*----------------------------------------------------------------*/
+/*Live Classes CSS starts*/
+/*----------------------------------------------------------------*/
+ 
+ .classes {
+ 	background: #f2edf4;
+ 	padding-bottom: 320px;
+ }
+  .classes .first_part {
+	border-bottom: 4px solid #cbd0e1;
+ }
+.live_class h4 {
+	padding-top: 50px;
+	font-size: 50px;
+	font-weight: 700;
+}
+.live_class h6 {
+	/*padding-top: 50px;*/
+	font-size: 27px;
+	font-weight: 600;
+	padding-bottom: 28px;
+}
+.telegram {
+	padding-top: 108px;
+	position: relative;
+}
+.telegram_content {
+	position: absolute;
+	top: 70%;
+	left: 11%;
+}
+.telegram_content a {
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+}
+.class_schedule h4 {
+	padding-top: 105px;
+	font-weight: 700;
+	font-size: ;
+}
+.class_schedule p {
+	position: relative;
+	color: #656565;
+}
+.class_schedule p:after {
+	content: '';
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	height: 2px;
+	width: 260px;
+	background: #cbd0e1;	
+}
+.class_topic p {
+	padding-top: 9px;
+	color: #656565;
+}
+.class_topic h5 {
+	font-weight: 500;
+	color: #000;
+}
+.recent_live_class {
+	padding-top: 50px;
+	position: relative;
+}
+.second_part h4 {
+	padding-top: 32px;
+	font-size: 38px;
+	font-weight: 700;
+}
+.recent_live_class h6 {
+	font-size: 16px;
+	font-weight: 600;
+	padding-bottom: 28px;
+}
+.part_two_btn {
+	margin-top: 38px;
+}
+.part_two_btn a{
+	padding: 20px 48px;
+	background: #1a70ff;
+	font-weight: 700;
+	font-size: 20px;
+	color: #fff;
+	border-radius: 5px;
+}
+
+/*----------------------------------------------------------------*/
+/*Live Classes CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+/*----------------------------------------------------------------*/
+/*Payment Classes CSS Starts*/
+/*----------------------------------------------------------------*/
+ 
+.payment_section {
+	background: #f2edf4;
+	padding-bottom: 240px;
+}
+.course_information h2{
+	padding-top: 90px;
+	font-weight: 700;
+	font-size: 50px;
+}
+.course_information span{
+	font-weight: 700;
+	font-size: 28px;
+	color: #1651db;
+	/*padding-bottom: 64px;*/
+}
+.payment_status {
+	padding-top: 65px;
+}
+.payment_status h5 {
+	height: 62px;
+	width: 430px;
+	padding-left: 18px;
+	padding-top: 12px;
+	font-size: 30px;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, #1a9eff , #1a5fff);
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.payment_status p{
+	font-weight: 700;
+	font-size: 28px;
+}
+.price_box {
+	padding-top: 70px;
+}
+.price_box .box {
+	height: 85px;
+	width: 120px;
+	background: #fff;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+}
+.pbox_1 .box span {
+	font-size: 28px;
+	color: #252e38;
+	font-weight: 700;
+}
+.pbox_1 .box2 {
+	background: #444444;
+	height: 85px;
+	width: 300px;
+	border-radius: 5px;
+	color: #fff;
+	transition: all linear .3s;
+	position: relative;
+}
+.pbox_1 .box2 h4 {
+	padding-top: 17px;
+	padding-left: 25px;
+	font-weight: 700;
+	font-size: 25px;
+}
+.pbox_1 .box2 p {
+	font-weight: 500;
+	font-size: 15px;
+	padding-left: 25px;
+}
+.pbox_1 .box2:hover {
+	background: #1a78ff;
+}
+.box2_due {
+	position: absolute;
+	top: 8px;
+	right: 10px;
+	background: #d9ff67;
+	height: 16px;
+	width: 40px;
+	border-radius: 15px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.box2_due h6 {
+	font-size: 12px;
+	color: #0f0f0f;
+	font-weight: 500;
+	padding-left: 0px;	
+}
+
+/*----------------------------------------------------------------*/
+/*Payment Classes CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+/*----------------------------------------------------------------*/
+/*Job CSS Starts*/
+/*----------------------------------------------------------------*/
+
+
+.job_hub {
+	background: #f2edf4;
+	padding-bottom: 570px;
+}
+.job_header {
+	padding-left: 80px;
+}
+.job_header h3 {
+	font-size: 50px;
+	font-weight: 700;
+	color: #000;
+	padding-top: 80px;
+}
+.job_header p {
+	font-size: 28px;
+	font-weight: 700;
+	color: #626262;
+}
+.job_designation  {
+	padding-left: 50px;
+	
+}
+.job_parts {
+	padding-top: 30px;
+}
+.job_parts .job_desig_icon {
+	margin-top: 8px;
+}
+.job_location h6 {
+	font-weight: 700;
+	font-size: 30px;
+}
+.job_location i {
+	color: #1a66ff;
+}
+.job_location span {
+	font-size: 18px;
+	color: #595959;
+}
+
+.job_salary p {
+	color: #757475;
+}
+.job_salary span {
+	color: #757475;
+}
+/*----------------------------------------------------------------*/
+/*Job CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+/*----------------------------------------------------------------*/
+/*Notice CSS Starts*/
+/*----------------------------------------------------------------*/
+.notice_board {
+	background: #f2edf4;
+	padding-bottom: 460px;
+	padding-left: 53px;
+	padding-right: 50px;
+}
+.notice_header h4 {
+	font-weight: 700;
+	font-size: 50px;
+	color: #000;
+	padding-top: 53px;
+}
+.blue_notice h5 {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	color: #6f6f6f;
+}
+.notice_content {
+	background: linear-gradient(to right, #4f91ea , #3ac4c6);
+	padding: 20px;
+	border-radius: 5px;
+}
+.notice_content p {
+	font-size: 21px;
+	color: #fff;
+}
+.white_notice h5 {
+	padding-top: 65px;
+	padding-bottom: 30px;
+	color: #6f6f6f;
+}
+.notice_con {
+	background: #fff;
+	padding: 20px;
+	border-radius: 5px;
+}
+.notice_con p {
+	font-size: 21px;
+	color: #000;
+}
+
+
+/*----------------------------------------------------------------*/
+/*Notice CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+
+/*----------------------------------------------------------------*/
+/*Support CSS Starts*/
+/*----------------------------------------------------------------*/
+ 	
+
+.support_ {
+	background: #f2edf4;
+	padding-bottom: 460px;
+	padding-left: 53px;
+}
+.support_ h4 {
+	padding-top: 53px;
+	font-size: 50px;
+	font-weight: 700;
+}
+.support_ p {
+	font-size: 25px;
+	color: #6f6f6f;
+	padding-bottom: 40px;
+} 
+.trainer_hotline p {
+	color: #0040f3;
+	font-size: 25px;
+	padding-bottom: 20px;
+}
+.trainer_numb {
+	background: #fff;
+	width: 75%;
+	position: relative;
+	margin-bottom: 60px;
+}
+.trainer_numb i {
+    font-size: 24px;
+    margin-top: 13px;
+    margin-left: 80px;
+    color: #636363;
+}
+.trainer_numb h4 {
+	font-size: 20px;
+	font-weight: 400;
+	padding-top: 12px;
+	padding-bottom: 15px;
+	margin-left: 80px;
+}
+.telephone i{
+	height: 60px;
+	width: 60px;
+	background: #7093f6;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -17px;
+	left: -94px;
+	color: #fff;
+}
+.telephone_green i{
+	height: 60px;
+	width: 60px;
+	background: #29c1dd;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -17px;
+	left: -94px;
+	color: #fff;
+}
+.telephone_yellow i{
+	height: 60px;
+	width: 60px;
+	background: #fdd462;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -17px;
+	left: -94px;
+	color: #fff;
+}
+.telephone_pink i{
+	height: 60px;
+	width: 60px;
+	background: #fc4c82;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	position: absolute;
+	top: -17px;
+	left: -94px;
+	color: #fff;
+}
+
+
+
+/*----------------------------------------------------------------*/
+/*Support CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+/*----------------------------------------------------------------*/
+/*offer CSS Starts*/
+/*----------------------------------------------------------------*/
+.offer_ {
+	background: #f2edf4;
+	padding-bottom: 380px;
+	padding-left: 53px;
+ }
+ .offer_header h4 {
+ 	padding-top: 53px;
+	font-size: 50px;
+	font-weight: 700;
+}
+.offer_header p {
+	font-size: 25px;
+	color: #6f6f6f;
+	padding-bottom: 40px;
+ }
+ .offer_con p {
+ 	font-size: 20px;
+ 	color: #20374f;
+ 	padding-bottom: 12px;
+ }
+.offer_con_img {
+ 	width: 100%;
+ }
+ .slick-dots {
+ 	display: -webkit-flex;
+ 	display: -moz-flex;
+ 	display: -ms-flex;
+ 	display: -o-flex;
+ 	display: flex;
+ 	margin-left: 90px;
+ }
+  .slick-dots button {
+  	font-size: 0px;
+  	height: 15px;
+  	width: 0px;
+  	border: none;
+  	background: #77c4ff;
+  	border-radius: 50%;
+  	margin-right: 10px;
+  }
+  .slick-active button {
+  	background: #1a8dff;
+  	position: relative;
+  	
+  }
+  .slick-active button:after {
+  	content: '';
+  	height: 21px;
+	width: 22px;
+	border: 1px solid #1a8dff;
+	position: absolute;
+	top: -3px;
+	left: -3px;
+	border-radius: 50%;
+  }
+  .offer_content p {
+ 	font-size: 28px;
+ 	color: #20374f;
+ 	/*padding-bottom: 12px;*/
+ }
+ .offer_content_box {
+	width: 65%;
+	margin-bottom: 20px;
+	
+ }
+
+/*----------------------------------------------------------------*/
+/*offer CSS Ends*/
+/*----------------------------------------------------------------*/
+ 
+
+ /*----------------------------------------------------------------*/
+/*Responsive CSS Starts*/
+/*----------------------------------------------------------------*/
+ 
+
+ /*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) { 
+	.dash_btn a {
+		padding: 19px 41px;
+	}
+	.menubar {
+		display: none;
+	}
+	.dashboard_menu {
+		display: block;
+	}
+
+
+ }
+
+/*// Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.dashboard_menu ul li {
+    	margin-left: 35px;
+    	padding-bottom: 25px;
+    } 
+    .dashboard_menu {
+		display: block;
+	}
+    .menubar {
+    	display: none;
+    }
+	.dash_btn a {
+		padding: 11px 15px;
+	}
+	.dashboard_menu ul {
+    	padding: 50px 0px 0px 0px;
+	}
+	.dashboard_menu .sign_out_btn {
+    	margin-bottom: 60px;
+	}
+	.dasboard .profile_pic {
+    	padding: 32px 0px 32px 30px;
+    }
+    .dashboard_menu .sign_out_btn a {
+    	margin-left: 35px;
+   	}
+    .profile_content_img img {
+    	height: 150px;
+	}
+	.profile_content h3 {
+	    font-size: 41px;
+	    padding-left: 20px;
+	}
+	.profile_content p {
+   	 	padding-left: 20px;
+	}
+	.profile_content2 h3 {
+	    font-size: 47px;
+	    padding-top: 20px;
+	    padding-left: 20px;
+	}
+	.profile_content2 p {
+	    font-size: 25px;
+	    padding-bottom: 0px;
+	    padding-left: 20px;
+	    margin-bottom: 0px;
+	}
+	.profile_content2 a {
+	    margin-left: 20px;
+	    padding: 6px 13px;
+	    background: #fff;
+	    border-radius: 20px;
+	    font-size: 14px;
+	}
+	.profile_information_form_content {
+	    padding-top: 50px;
+	    padding-left: 50px;
+	    position: relative;
+	    padding-bottom: 40px;
+	}
+	.course_information h2 {
+    	padding-top: 60px;
+    }
+    .telegram_content {
+	    top: 75%;
+	    left: 10%;
+	}    
+	.live_class h6 {
+	    padding-top: 50px;
+	    font-size: 22px;
+	}
+    .telegram_content a {
+   		font-size: 14px;
+   	}
+   	.job_location h6 {
+    	font-size: 22px;
+	}
+	.offer_con p {
+    	font-size: 16px;
+	}
+	.slick-dots {
+		margin-left: 45px;
+	}
+	.offer_content p {
+    	font-size: 22px;
+	}
+	.blue_notice h5 {
+	    padding-top: 20px;
+	    padding-bottom: 25px;
+	}
+	.white_notice h5 {
+    	padding-top: 40px;
+	}
+	.notice_content p {
+    	font-size: 18px;
+	}
+	.notice_con p {
+    	font-size: 18px;
+    }
+    .trainer_numb h4 {
+    	margin-left: 59px;
+    }
+    .telephone_green i {
+    	left: -43px;
+    }
+    .telephone_yellow i {
+    	left: -43px;
+    }
+    .telephone i {
+    	left: -43px;
+    }
+    .telephone_pink i {
+    	left: -43px;
+    }
+    .trainer_numb i{
+		margin-left: 25px;
+    }
+    
+
+
+ }
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+	.menubar a {
+		right: 30px;
+	}
+	.dash_btn {
+    	margin-bottom: 30px;
+	}
+	.dashboard_menu .sign_out_btn {
+    	margin-bottom: 50px;
+	}
+	.head {
+		display: block;
+	}
+	.profile_pic {
+		display: none;
+	}
+	.dashboard_menu {
+		display: none;
+	}
+	.profile_information {
+		padding-top: 60px;
+	}
+	.menubar a {
+		display: inline-block;
+		z-index: 999;
+	}
+	
+	.profile_content h3 {
+	    font-size: 44px;
+	    padding-top: 15px;
+	    padding-left: 20px;
+	}
+	.profile_content p {
+	    font-size: 24px;
+	    padding-left: 20px;
+	}
+	.profile_content_img img {
+    	height: 140px;
+	}
+	.profile_content2 h3 {
+	    font-size: 44px;
+	    padding-top: 15px;
+	    padding-left: 20px;
+	}
+	.profile_content2 p {
+	    font-size: 24px;
+	    padding-left: 20px;
+	    margin-bottom: 0px;
+	}
+	.profile_content2 a {
+    	margin-left: 20px;
+   	 	padding: 8px 14px;
+    	font-size: 14px;
+	}
+	.profile_information_form_content {
+	    padding-top: 50px;
+	    padding-left: 50px;
+	}
+	.notification .message {
+    	margin-right: 20px;
+	}
+	.telegram_content {
+	    top: 74%;
+	    left: 7%;
+	}
+	.telegram_content a {   
+    	font-size: 14px;
+	}
+	.course_information h2 {
+    	padding-top: 50px;
+	}
+	.profile_information {
+		padding-bottom: 50px;
+	}
+	.payment_section {
+    	padding-bottom: 50px;
+	}
+	.classes {
+   	 	padding-bottom: 50px;
+	}
+	.job_hub {
+		padding-bottom: 50px;
+	}
+	.offer_ {
+    	padding-bottom: 50px;
+	}
+	.blue_notice h5 {
+    	padding-top: 30px;
+	}
+	.white_notice h5 {
+    	padding-top: 30px;
+	}
+	.notice_board {
+    	padding-bottom: 50px;
+	}
+	.support_ {
+    	padding-bottom: 50px;
+	}
+	.notification .message {
+    	margin-right: 20px;
+    	
+	}
+	
+
+
+
+ }
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.notification .message {
+    	margin-right: 00px;
+	}
+	.dash_btn {
+    	margin-bottom: 30px;
+	}
+	.dashboard_menu .sign_out_btn {
+    	margin-bottom: 50px;
+	}
+	.profile_pic {
+		display: none;
+	}
+	.head .search_box {
+		margin-left: 0px;
+	}
+	
+	.profile_information_form_content {
+    	padding-top: 30px;
+    	padding-left: 20px;
+    }
+    .course_information h2 {
+    	padding-top: 30px;
+	}
+	.telegram {
+ 	   padding-top: 0px;
+	}
+	.class_schedule h4 {
+    	padding-top: 0px;
+	}
+	.recent_live_class {
+    	padding-top: 10px;
+	}
+	.recent_live_class h6 {
+		padding-bottom: 10px;
+	}
+	.job_header h3 {
+		padding-top: 30px;
+	}
+	.slick-dots {
+		margin-left: 175px;
+	}
+	.notice_content {
+    	margin-bottom: 15px;
+	}
+	.notice_con {
+    	margin-bottom: 15px;
+	}
+	.telegram_content {
+	    top: 61%;
+	    left: 18%;
+	}
+
+
+
+
+
+
+
+
+
+
+    .profile_information {
+		padding-bottom: 50px;
+	}
+	.payment_section {
+    	padding-bottom: 50px;
+	}
+	.classes {
+   	 	padding-bottom: 50px;
+	}
+	.job_hub {
+		padding-bottom: 50px;
+	}
+	.offer_ {
+    	padding-bottom: 50px;
+	}
+	.blue_notice h5 {
+    	padding-top: 30px;
+	}
+	.white_notice h5 {
+    	padding-top: 30px;
+	}
+	.notice_board {
+    	padding-bottom: 50px;
+	}
+	.support_ {
+    	padding-bottom: 50px;
+	}
+
+
+}
+
+ /*// Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { ... }
+
+
+
+/*----------------------------------------------------------------*/
+/*Responsive CSS Ends*/
+/*----------------------------------------------------------------*/
